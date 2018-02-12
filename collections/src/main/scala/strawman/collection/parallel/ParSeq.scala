@@ -27,8 +27,7 @@ import scala.collection.parallel.mutable.ParArrayCombiner
  *
  *  @author Aleksandar Prokopec
  */
-trait ParSeq[+T] extends GenSeq[T]
-                    with ParIterable[T]
+trait ParSeq[+T] extends ParIterable[T]
                     with GenericParTemplate[T, ParSeq]
                     with ParSeqLike[T, ParSeq[T], Seq[T]]
 {

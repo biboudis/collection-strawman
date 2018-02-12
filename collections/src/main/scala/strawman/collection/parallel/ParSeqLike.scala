@@ -6,7 +6,7 @@
 **                          |/                                          **
 \*                                                                      */
 
-package scala
+package strawman
 package collection.parallel
 
 import scala.collection.{ SeqLike, GenSeq, GenIterable, Iterator }
